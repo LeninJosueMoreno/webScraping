@@ -1,0 +1,207 @@
+descripcion,id,pregunta
+"
+                Basically, I am pursuing a really trivial task - setting up a timer, change button to ""running"", when it fires change button back to ""not running"". It also should work when the app ...
+            ",[1],how to update Composable function when timer is set
+"
+                So, I am trying to automate the WebGoat lesson's procedure. Below are the scripts for login in and submit a (SQL Injection) lesson.
+login-webgoat.py
+import requests
+
+url = ""http://localhost:8080/...
+            ",[1],**WebGoat SQL Injection Automation: JSESSIONID Causes 500 Internal Server Error**
+"
+                I'm trying a List with lessons with a SwipeAction to show an edit modal:
+@ObservedResults(Lesson.self) var lesson
+
+@State private var showEditModal = false
+@State private var forEdit: Lesson?    
+
+...
+            ",[1],RealmSwift: SwipeAction to show edit modal
+"
+                I already have this working but Apple is putting up a roadblock regarding requiring persistent real-time location permissions (i.e. Always).
+Basically, the scenario is I am storing locations in ...
+            ",[1],iOS - Obtain User's Current Location When Notification Arrives
+"
+                I'm following one of the courses on Udemy about CI/CD, Jenkins, Docker, Ansible, etc. that was recommended in my company. It's quite good, but unfortunately a bit old, outdated and doesn't seem to be ...
+            ",[1],Ansible commands that require ssh connection between two docker containers are taking very long time to complete
+"
+                https://mujoco.readthedocs.io/en/stable/modeling.html#mocap-bodies describes Mujoco's attempt to reconcile a body being posed arbitrarily in a simulation (including in nonphysical ways such as moving ...
+            ",[1],"Does Drake have an equivalent of mujoco ""mocap"" bodies?"
+"
+                In a 4 member cluster, one of the members has the networking interface taken down as part of a network configuration change, for short period of time (5-10s). At this time, all 3 other nodes in the ...
+            ",[1],Ignite update query takes significant time after EVT_NODE_SEGMENTED event
+"
+                Directly related to this.
+There is a SQL SELECT where one of the columns is a subquery with a COUNT(*):
+select wee, hee, (select count(*) from bar where bar.wee = foo.wee) as n
+   from foo
+
+When I ...
+            ",[1],"COUNT(*) can't be a NULL, can it?"
+"
+                I was frequently using a very good and free website to analyze Java GC log files, unfortunately that website is no longer free. But I found a different website that still provides the one diagram that ...
+            ",[1],Free Java GC Log Viewer [closed]
+"
+                Problem:
+I am trying to set up an Ingress resource in the default namespace that routes traffic to:
+
+Mongo Express (in the default namespace)
+Kubernetes Dashboard (which is in the kubernetes-dashboard ...
+            ",[1],Kubernetes Ingress Not Routing to Services in Different Namespaces
+"
+                Laravel Framework 10.48.28
+spatie/laravel-data: ^4.13
+
+Documentation spatie/laravel-data:
+You can create a data object with a collection of data objects just like you would create a data object with a ...
+            ",[1],spatie/laravel-data Cannot assign array to property of type Collection
+"
+                I've got esim QR code and SIM7500E modem. QR code
+contains the following contents (like):
+LPA:1$XXXXXXX$YYYYYYY
+I need to install this profile to modem.
+When I connect my modem to my PC there is /dev/...
+            ",[1],SIM7500 eSIM profile install [closed]
+"
+                I'm trying to set up authentication using HttpOnly cookies in my project with ASP.NET and React. After login, I'm attempting to set an accessToken cookie for the user, but it doesn't appear in the ...
+            ",[1],"HttpOnly Cookie not appearing in DevTools after login, despite setting SameSite=None and credentials: 'include' in ASP.NET and React"
+"
+                Is it because PQC only considers classical algorithms that are quantum resistant? https://en.wikipedia.org/wiki/Post-quantum_cryptography doesn't quote QKD as quantum resistant.
+            ",[1],Why QKD not considered Post Quantum Cryptography or Quantum Resistant?
+"
+                Consider the following typeclass for defining equality between values of heterogenous types:
+class HEq a b where
+    heq :: a -> b -> Bool
+
+We can define an instance for Int and Bool as follows:
+...
+            ",[1],Is it possible to define a symmetric typeclass?
+descripcion,id,pregunta
+"
+                My program is crashing with the following exception as soon as I access any Log4Net API:
+System.IO.FileNotFoundException: 'Could not load file or assembly 'log4net, Version=3.0.3.0, Culture=neutral, ...
+            ",[1],Log4Net: Could not load file or assembly
+"
+                I want to start a independent thread in Node.js to do some heavy task, this is my code look like:
+import logger from ""../../common/log4js_config.js"";
+import { iterateAllKeys } from ""../....
+            ",[1],ReferenceError [Error]: Cannot access 'initialize' before initialization
+"
+                I am trying to connect my OneDrive library to PowerApps. I want to create a dropdown that lists all the folders within my specified path. I tried the SharePoint Document Library approach, but this is ...
+            ",[1],How to conncet to OneDrive on PowerApps?
+"
+                I am trying to minimize the following code to a for loop, as I have 14 of the similar columns, or something in a fewer number of code lines. What would be a pythonic way to do it?
+df['fan1_rpm'] = np....
+            ",[1],Automate initializing random integers for various columns in data frame Python
+"
+                I am trying to run a NestJS app inside a Nitro Enclave. But whenever i started the enclave using command
+
+nitro-cli run-enclave --cpu-count 2 --memory 4132 --enclave-cid 16
+--eif-path crons_enclave....
+            ",[1],AWS Nitro Enclave unable to resolve paths
+"
+                I have an IF Statement where I want it to work through the nested if's/switch statements and stop at the first True occurrence. However, If it makes it to the Final IF Statement, then I need it to ...
+            ",[1],How do I modify my excel IF statement to check for any (not all) True values and not just stop at the first TRUE occurrence
+"
+                In spring boot, its easy to use repositories to create methods which make database calls for you.
+public interface PlayerRepository extends CrudRepository<Player, Long> {
+    PlayerfindById(long ...
+            ",[1],How to call database with dynamically constructed SQL
+"
+                The pysqlite3-binary is not getting installed on my local machine. It gives error as:
+
+""ERROR: Could not find a version that satisfies the requirement
+pysqlite3-binary (from versions: none)""
+...
+            ",[1],pysqlite3-binary not getting installed on my local machine
+"
+                first created a booking collection using adminId and busId
+then one document added to collection
+now I change the model to userID and busId
+it show this error
+I try to delete the collection and  ...
+            ",[1],"""message"": ""E11000 duplicate key error collection: BusBooking.bookings index: adminId_1 dup key: { adminId: null }"","
+"
+                I have installed Colima and kalilinux/kali-rolling on my MacBook Air M1, but I want to test my website using the traceroute command.
+To do this, I need to expose my kalilinux/kali-rolling container as ...
+            ",[1],How to expose kalilinux/kali-rolling on my network with colima
+"
+                I have a colleague that manages stored procedures in the Oracle database. One of them has been changed to invoke an API that has been published in Azure API Management. We noticed that if the XML body ...
+            ",[1],End Tag Missing When Element Has Accented Characters
+"
+                I have the following array. Note that C6 has 0 as value rather than empty.
+
+I need to write a formula which takes B4:E100 as input and removes the trailing rows. I then use =B4:.E100. And it returns
+
+...
+            ",[1],Keep `0` in the original array
+"
+                I am running Windows 11 Pro 64-bit (24H2) with the latest updates.
+For the past few weeks, I have been unable to create or delete files and directories in CMD or PowerShell.
+Example:
+C:\Users\MyUser&...
+            ",[1],Can't create or delete files and folder in CMD or PowerShell
+"
+                I have an Android project that has been running for several years with ObjectBox version 3.1.3. I have several Entities, some of which have ToOne and/or ToMany relationships pointing to others. The ...
+            ",[1],ObjectBox : initialization magic works in version 3.1.3 but not in 4.0.2
+"
+                I am working on a personal project which is about creating a simple web app to track projects and manage their hours, their tasks, their users, assignees and so on. I am attaching an image of how my ...
+            ",[1],ASP.NET not working with authorization / authentication
+descripcion,id,pregunta
+"Hi guys I have been trying to turn int to char in C# using this code but it's not working Console.WriteLine(""Please enter a number between (0 - 127):""); int num = int.Parse(Console....",[0],trying to turn int to char in C# using this code but it's not working
+"I am experiencing an issue where my ASUS TUF F15 laptop's display does not function properly at 144Hz. This problem has been previously discussed here: ""Reddit discussion"". While the display ...",[1],Force Display to 60Hz on Boot and Before Login in Pop!_OS
+"In my Cargo.toml, want to upgrade argon2-rs from 0.5 to 0.5.3, but I get an error that I can't seem to solve myself: use argon2::password_hash::rand_core::OsRng; ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...",[2],Upgrading argon2 from 0.5 to 0.5.3 gives error no `OsRng` in the root
+"I'm using an ASP.NET WebForms application using ASPX pages. After tariff names are changed and the user clicks the Save button, a modal dialog should appear, prompting the user to enter a ticket ...",[3],Modal dialog not appearing – Issue with JavaScript
+"I am trying to extract text from a Moroccan license plate using EasyOCR, but the Arabic letter in the middle is not being detected. Problem: When processing an image of a license plate, EasyOCR ...",[4],EasyOCR is not detecting Arabic letters in a license plate image
+"We use following Liquibase base command to perform changeset operations: DO we need to have seperate liquibase property file? even we use below all parameters from command. liquibase --url=""...",[5],clarification on Liquibase property file
+"I am experiencing an extremely slow query when calling Auth::user() in Laravel. The query takes around 2.7 seconds, which significantly slows down my application. I logged the database queries using ...",[6],Laravel Auth::user() is extremely slow (2.7s query time) how to optimize it?
+"I am using ansible to connect to the vmware service module after that I am extracting the host name and service status .I am iterating it using jinja2 template for loop ,I am able to get the output ...",[7],Ansible iteration using for loop adds extra space to the output object
+"I want to hide the usage of sql model behind a class, let's call it Repository. So that an endpoint would be something like: @router.get(""/"") def list() -> list[Resource]: return ...",[8],Fastapi hide sql session in object
+"My makefile (Windows 10, MSYS2) fails at the last step with: Finished prerequisites of target file 'lib/espeak_mini.lib'. Must remake target 'lib/espeak_mini.lib'. Unhandled exception filter called ...",[9],Make always crashes at final linking - runs fine the 2nd attempt
+I am working on a React Native project using the managed workflow with Expo. I recently added features that allow users to upload pictures and receive notifications. When I build for iOS using eas ...,[10],React Native EAS Build Android Error: PLEASE FIX DEPENDENCIES
+"MongoDB Atlas Connection Issue: queryTxt ETIMEOUT & ServerSelectionError I'm trying to connect my Node.js backend to MongoDB Atlas, but I'm getting connection errors. Error: queryTxt ETIMEOUT ...",[11],MongoDB Atlas Connection Issue: Error: queryTxt ETIMEOUT cluster0.nqjp7.mongodb.net
+"For the context, I am serializing some class A in JSON, but it has one private member (Instant creationTime). In all JUnit tests, the serialization is working with no issue. In production, I end up ...",[12],How can I disable JUnit from accessing private class members
+As per the title I'm looking for a way to calculate the number of usable bits (value bits) in an unsigned int while strictly respecting the c99 standard. The best solution I've come up with so far is ...,[13],What is the most efficient way to calculate the number of value bits of an unsigned int in C99?
+"My program is crashing with the following exception as soon as I access any Log4Net API: System.IO.FileNotFoundException: 'Could not load file or assembly 'log4net, Version=3.0.3.0, Culture=neutral, ...",[14],Log4Net: Could not load file or assembly
+descripcion,titular
+"Ecuador se medirá a los llaneros el viernes 21 de marzo en el estadio Rodrigo Paz Delgado, desde las 16:00.",Lista de convocados de la selección de Ecuador para partidos contra Venezuela y Chile por las eliminatorias al Mundial 2026 se difundirá el sábado 15 de marzo 
+(Video) El portero brasileño sueña con remontar el 3-0 sufrido la semana pasada en el estadio de los amarillos.,"‘Un verdadero hincha creería en nosotros. Vamos a marcar los goles que necesitamos’, advierte a Barcelona SC, Hugo Souza, arquero de Corinthians sobre crucial duelo de Copa Libertadores"
+(Video) El titular de los eléctricos no ocultó su inconformidad por la caída sufrida en Quito ante el recién ascendido Vinotinto.,"‘Esperamos que los errores no se repitan’: llamado de atención de Jorge Guzmán, presidente de Emelec, al técnico Jorge Célico"
+(Video) La prensa brasileña revela que existió un ambiente tenso tras la caída del 'Timao' en el estadio torero.,"¿Hubo una pelea en el camerino con Memphis Depay tras la caída de Corinthians ante Barcelona SC, en la ida de la fase 3 de la Copa Libertadores? Esto revelan jugadores del ‘Timao’"
+"Marlon Chito Vera, Michael Morales y Carlos Vera son los tres representantes del país en este deporte.",UFC 2025: estas son las fechas y rivales confirmados de los peleadores ecuatorianos de artes marciales mixtas
+"Ecuador se medirá a los llaneros el viernes 21 de marzo en el estadio Rodrigo Paz Delgado, desde las 16:00.",Lista de convocados de la selección de Ecuador para partidos contra Venezuela y Chile por las eliminatorias al Mundial 2026 se difundirá el sábado 15 de marzo 
+El defensa ecuatoriano Piero Hincapié podría ser titular en este crucial duelo de su escuadra en Liga de Campeones.,Canales para ver En Vivo Bayer Leverkusen vs. Bayern Munich por la vuelta de octavos de Champions League
+Los Reds tienen la ventaja tras imponerse por 1-0 en París.,¿En dónde ver la vuelta de los octavos de final de Champions League entre el PSG de Willian Pacho y el Liverpool?
+Los toreros tienen una ventaja global de 3-0.,¿Qué resultado necesita Barcelona SC para clasificar a la fase de grupos de la Copa Libertadores?
+"Entre sus cometidos estará la búsqueda de un nuevo director deportivo para la federación: “Buscaré a alguien que tenga experiencia"", dijo."," Jordi Cruyff, el DT que nunca debutó con Ecuador, es nuevo asesor técnico de la Federación de Fútbol de Indonesia"
+El Mengao jugará la Copa Libertadores 2025.,El innovador entrenamiento de arqueros en Flamengo: con una pelota triangular
+"El duelo de vuelta se disputará este miércoles, 12 de marzo, en el Neo Química Arena, desde las 19:30.",Cuánto ganará Barcelona SC si vence a Corinthians y clasifica a la fase de grupos de Copa Libertadores
+Dalma y Gianinna Maradona pidieron repetidamente en redes sociales “justicia” por su padre.,Se inicia juicio por la muerte de Diego Armando Maradona
+El estratega argentino tiene la confianza de que su escuadra mejore y logre un mejor rendimiento en la Liga Pro.,"Derrota ante el Manta FC aún duele en El Nacional: ‘El equipo se desmoronó’, dice Omar Asad, técnico de los criollos"
+El francés cumplió 18 meses de sanción tras dar positivo por metabolitos no endógenos de la testosterona en 2023.,¡Es agente libre! Paul Pogba ya puede jugar al fútbol luego de cumplir su sanción por dopaje
+El futbolista cumple destacadas actuaciones con los orientales y ahora espera ganarse una convocatoria al combinado nacional.,"Michael Carcelén, volante de Aucas, y el sueño de llegar a la selección de Ecuador: ‘Es lo más grande que un futbolista puede llegar a defender’"
+"(Video) El estratega colombiano fue recibido en la Casa Presidencial por el mandatario salvadoreño, que le brindó su apoyo.","‘Pida lo que quiera, pero vamos al Mundial’, la solicitud de Nayib Bukele, presidente de El Salvador, a Hernán Darío Gómez, exentrenador de Ecuador y actual DT de ‘La Selecta’"
+"Marlon Chito Vera, Michael Morales y Carlos Vera son los tres representantes del país en este deporte.",UFC 2025: estas son las fechas y rivales confirmados de los peleadores ecuatorianos de artes marciales mixtas
+"Este proyecto de un nuevo estadio ha contado con el apoyo del legendario entrenador Alex Ferguson, quien ganó trece títulos de Premier League.",Manchester United anuncia construcción de un nuevo estadio que será ‘el mejor del mundo’
+(Video) La prensa brasileña revela que existió un ambiente tenso tras la caída del 'Timao' en el estadio torero.,"¿Hubo una pelea en el camerino con Memphis Depay tras la caída de Corinthians ante Barcelona SC, en la ida de la fase 3 de la Copa Libertadores? Esto revelan jugadores del ‘Timao’"
+,Sigifredo Chuchuca: centenario del más grande ídolo de nuestro fútbol
+,"Frazier-Ali, la lucha inmortal"
+,La noche del faraón
+,En Copa Davis también reclaman los chilenos
+,El auténtico Rey de Copas
+,¿Qué resultado necesita Barcelona SC para clasificar a la fase de grupos de la Copa Libertadores?
+,Cuánto ganará Barcelona SC si vence a Corinthians y clasifica a la fase de grupos de Copa Libertadores
+,"¿Hubo una pelea en el camerino con Memphis Depay tras la caída de Corinthians ante Barcelona SC, en la ida de la fase 3 de la Copa Libertadores? Esto revelan jugadores del ‘Timao’"
+,Copa Libertadores: Barcelona SC arribó a Brasil para revancha ante Corinthians
+,"‘Un verdadero hincha creería en nosotros. Vamos a marcar los goles que necesitamos’, advierte a Barcelona SC, Hugo Souza, arquero de Corinthians sobre crucial duelo de Copa Libertadores"
+,"‘Esperamos que los errores no se repitan’: llamado de atención de Jorge Guzmán, presidente de Emelec, al técnico Jorge Célico"
+,Así queda la tabla de posiciones de la Liga Pro al cierre de la cuarta fecha
+,"Jorge Célico, técnico de Emelec, y el duelo ante Liga de Quito: ‘Será hermoso, un partido de equipos grandes’"
+,Estos son los horarios y partidos de la quinta fecha de la Liga Pro
+,Emelec no ganaba en sus cuatro primeros partidos por campeonato ecuatoriano de fútbol desde 1991
+,"Jorge Célico, técnico de Emelec, y el duelo ante Liga de Quito: ‘Será hermoso, un partido de equipos grandes’"
+,Estos son los horarios y partidos de la quinta fecha de la Liga Pro
+,Así queda la tabla de posiciones de la Liga Pro tras la derrota de Emelec ante Vinotinto FC
+,"¡Aplanadora alba! Liga de Quito golea al Delfín, en la fecha 4 de Liga Pro"
+,Estos son los bolilleros para el sorteo de fase de grupos de la Copa Libertadores
